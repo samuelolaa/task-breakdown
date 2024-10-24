@@ -6,3 +6,5 @@
 
    ```bash
    npm install
+4. To start the server, run 'npm run watch'
+5. To run the app locally, run 'npm start'
