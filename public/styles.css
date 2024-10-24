@@ -1,0 +1,126 @@
+/* Import the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-weight: 500;
+  color: #4a90e2;
+}
+
+.mode-selector {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mode-selector label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.mode-selector select {
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button-group button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-group button:hover {
+  background-color: #357abd;
+}
+
+.task-display {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.task-display h3 {
+  margin-top: 0;
+  color: #4a90e2;
+}
+
+.task-display p {
+  margin: 5px 0;
+}
+
+.task-display ol {
+  padding-left: 20px;
+}
+
+.task-display li {
+  margin-bottom: 5px;
+}
+
+/* ... existing styles ... */
+
+.task {
+  margin-bottom: 20px;
+}
+
+.task-header {
+  display: flex;
+  align-items: center;
+}
+
+.task-header h3 {
+  margin-left: 10px;
+}
+
+.task-details {
+  margin-left: 25px;
+}
+
+.task-details p {
+  margin: 2px 0;
+}
+
+.task ol {
+  margin-left: 25px;
+}
+
+.task ol li {
+  display: flex;
+  align-items: center;
+}
+
+.task ol li span {
+  margin-left: 5px;
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
