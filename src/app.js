@@ -36,7 +36,7 @@ const assistantConfig = {
     voiceId: 'jennifer',
   },
   model: {
-    provider: 'openai',
+    provider: 'anthropic',
     model: 'claude-v3.5',
     systemPrompt: `You are a friendly, understanding ADHD task assistant that helps users break down tasks into manageable steps. Speak in a casual, supportive tone and avoid being overly formal or robotic.
 
