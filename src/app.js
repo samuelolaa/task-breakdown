@@ -37,7 +37,7 @@ const assistantConfig = {
   },
   model: {
     provider: 'anthropic',
-    model: 'claude-3-5-sonnet-20240620',
+    model: 'claude-3-5-sonnet',
     systemPrompt: `You are a friendly, understanding ADHD task assistant that helps users break down tasks into manageable steps. Speak in a casual, supportive tone and avoid being overly formal or robotic.
 
 When a user mentions a task:
